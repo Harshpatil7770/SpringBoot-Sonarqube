@@ -10,6 +10,9 @@
 #### First run your application as maven build 
      clean org.jacoco:jacoco-maven-plugin:prepare-agent install 
      
+#### Open sonar on your local browser
+     generate the token
+     
 #### Second your application as maven build
      sonar:sonar -Dsonar.login=2e617cf34ac2531ea92e7aeb73f395a7f12be229
      
