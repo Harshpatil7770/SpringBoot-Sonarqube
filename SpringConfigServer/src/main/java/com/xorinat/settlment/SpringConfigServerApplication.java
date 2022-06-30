@@ -3,7 +3,9 @@ package com.xorinat.settlment;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
-
+// Spring cloud config server act as centralized or common service.
+// We kept all common properties on git and provide repository inside this 
+//application.properties file.
 @SpringBootApplication
 @EnableConfigServer
 public class SpringConfigServerApplication {
