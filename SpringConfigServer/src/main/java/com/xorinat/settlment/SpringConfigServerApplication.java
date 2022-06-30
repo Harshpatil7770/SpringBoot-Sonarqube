@@ -7,6 +7,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 // We kept all common properties on git and provide repository inside this 
 //application.properties file.
 //git fetch means fetch changes into your local repository
+//git pull-
 @SpringBootApplication
 @EnableConfigServer
 public class SpringConfigServerApplication {
